@@ -19,11 +19,20 @@ const LoginPage = () => {
           bordered={false}
           style={{ width: 300 }}
           title={
-            <Space style={{ width: "100%", display: "flex", justifyContent: "center", fontSize: 20 }}>
+            <Space
+              style={{
+                width: "100%",
+                display: "flex",
+                justifyContent: "center",
+                fontSize: 20,
+              }}
+            >
               <LockFilled /> Sign in
             </Space>
           }
-        ></Card>
+        >
+          
+        </Card>
       </Layout>
     </>
   );
